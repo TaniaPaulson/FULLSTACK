@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>about</title>
+<style>
+body {
+  margin:0;
+  background-color:#CFD8DC;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+.hl{
+margin-left:190px;
+margin-top:120px;
+}
+.hl2{
+margin-left:200px;
+margin-top:120px;
+}
+.hl1{
+margin-left:200px;
+margin-top:120px;
+}
+.disp{
+display:flex;
+}
+footer {
+  margin-top:70px;
+  text-align: right;
+  padding: 3px;
+  background-color:#90A4AE;
+  color: 001C30;
+}
+footer a{
+color:black;
+margin-right:20px;
+
+}
+img {
+  --s: 250px;   /* the size of the image */
+  --b: 8px;     /* the border thickness*/
+  --g: 14px;    /* the gap */
+  --c: #808080; /* the color */
+  
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid #0009;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+img + img {
+  border-radius: 50%;
+}
+.header {
+  margin:0;
+  overflow: hidden;
+  background-color:#90A4AE;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 15px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family:Garamond;
+}
+
+.header a:hover {
+  background-color:#CFD8DC;
+  color: black;
+}
+
+.header a.active {
+  background-color:#CFD8DC;
+  color: black;
+}
+
+.header-right {
+  float: right;
+ 
+}
+</style>
+</head>
+<body>
+<div class="header">
+<a href="#default" class="logo">PERSONAL PORTFOLIO</a>
+<div class="header-right">
+<a  href="file:///C:/Users/tania/OneDrive/Desktop/project/personal%20portfolio/home.html">Home</a>
+<a href="file:///C:/Users/tania/OneDrive/Desktop/project/personal%20portfolio/about.html">About</a>
+<a href="file:///C:/Users/tania/OneDrive/Desktop/project/personal%20portfolio/skills.html">Skills</a>
+<a href="file:///C:/Users/tania/OneDrive/Desktop/project/personal%20portfolio/certifications.html">Certifications</a>
+<a  class="active" href="file:///C:/Users/tania/OneDrive/Desktop/project/personal%20portfolio/project.html">Projects</a>
+<a href="file:///C:/Users/tania/OneDrive/Desktop/project/personal%20portfolio/contact.html">Contact</a>
+</div>
+</div>
+<div style="width: 100%; height: 20px; border-bottom: 3px solid black; text-align: center; margin-top:70px">
+  <span style="font-size: 40px; background-color: #CFD8DC; padding: 0 10px;">
+    Projects <!--Padding is optional-->
+  </span>
+</div>
+<div class="disp">
+<div class="hl">
+<img src="https://thumbs.dreamstime.com/b/digital-technologies-medicine-white-tablet-pc-doctor-tools-gray-surface-142937487.jpg" height="350px" width="350px">
+<h4 style="text-align:center;"><i>Healthrecord management system</i></h4>
+</div>
+<div class="hl1">
+<img src="C:\Users\tania\OneDrive\Desktop\project\personal portfolio\train.jpg" height="350px" width="350px">
+<h4 style="text-align:center"><i>Train Ticket Management</i></h4>
+</div>
+<div class="hl2">
+<img src="https://i.ytimg.com/vi/__ddy0i2eTk/maxresdefault.jpg" height="350px" width="350px">
+<h4 style="text-align:center"><i>CNC Project</i></h4>
+</div>
+</div>
+</body>
+</html>
